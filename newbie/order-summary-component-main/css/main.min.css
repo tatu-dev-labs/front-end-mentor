@@ -431,6 +431,10 @@ fieldset {
 textarea {
   resize: vertical; }
 
+.o-title {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900; }
+
 .c-hero-card {
   background-color: white;
   box-shadow: 0 20px 40px rgba(56, 41, 224, 0.2);
@@ -439,6 +443,10 @@ textarea {
 @media (min-width: 480px) {
   .c-hero-card {
     width: 450px; } }
+.c-hero-card .o-title {
+  text-align: center;
+  color: #1f2f56;
+  font-size: 1.75rem; }
 
 .l-hero-card {
   width: 100%;
