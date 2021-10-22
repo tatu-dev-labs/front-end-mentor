@@ -1,7 +1,8 @@
 .c-hero-card {
     background-color: white;
+    box-shadow: 0 20px 40px $BrightBlueShadow;
     border-radius: 25px;
-    width: 375px;
+    width: 375px;   
 
     @media (min-width: 480px) {
         width: 450px;
