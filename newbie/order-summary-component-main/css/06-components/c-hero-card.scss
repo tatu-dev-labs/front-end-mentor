@@ -8,9 +8,14 @@
         width: 450px;
     }
 
+    & section {
+        padding: 0 40px;
+    }
+
     & .o-title {
         text-align: center;
         color: $DarkBlue;
         font-size: 1.75rem;
     }
+    
 }
