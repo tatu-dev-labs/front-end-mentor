@@ -6,6 +6,7 @@
     color: $DesaturatedBlue;
     text-align: center;
     padding-bottom: 1.875rem;
+    overflow: hidden;
 
     @media (min-width: 480px) {
         width: 450px;
