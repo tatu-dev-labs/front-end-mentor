@@ -7,4 +7,10 @@
     padding: 0.9375rem;
     border: none;
     border-radius: 0.625rem;
+
+    &.-primary {
+        background-color: $BrightBlue;
+        color: white;
+        box-shadow: 0 15px 25px $BrightBlueShadow;
+    }
 }
