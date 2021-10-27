@@ -25,5 +25,10 @@
         font-size: 0.875rem;
         margin: 1.875rem 0 1.875rem 0
     }
+
+    & .o-btn.-link {
+        margin: 0 auto;
+        color: $DesaturatedBlue;
+    }
     
 }
