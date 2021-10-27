@@ -1,7 +1,7 @@
 .c-hero-card {
     background-color: white;
     box-shadow: 0 20px 40px $BrightBlueShadow;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     width: 375px;   
     color: $DesaturatedBlue;
     text-align: center;
@@ -11,7 +11,7 @@
     }
 
     & section {
-        padding: 0 45px;
+        padding: 0 2.8125rem;
     }
 
     & .o-title {
