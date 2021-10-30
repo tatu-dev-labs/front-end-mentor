@@ -13,6 +13,11 @@
         background-color: $BrightBlue;
         color: white;
         box-shadow: 0 15px 25px $BrightBlueShadow;
+
+        &:hover,
+        &:focus {
+            background-color: $BrightLightBlue;
+        }
     }
 
     &.-link {
