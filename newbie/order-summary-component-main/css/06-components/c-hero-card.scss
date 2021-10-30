@@ -46,6 +46,12 @@
     & .o-btn.-link {
         margin: 0 auto;
         color: $DesaturatedBlue;
+
+        &:hover,
+        &:focus {
+            color: $DarkBlue;
+            text-decoration: none;
+        }
     }
 
     & .o-bg-image {
