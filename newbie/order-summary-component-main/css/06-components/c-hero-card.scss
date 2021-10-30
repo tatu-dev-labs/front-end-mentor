@@ -39,7 +39,8 @@
 
     & .o-btn.-primary {
         width: 100%;
-        margin: 1.875rem 0 0.9375rem 0
+        margin: 1.875rem 0 0.9375rem 0;
+        box-shadow: 0 20px 40px $BrightBlueShadow;
     }
 
     & .o-btn.-link {
