@@ -25,13 +25,17 @@
     }
 
     & .o-link {
-        font-size: 0.875rem;
+        font-size: 0.8125rem;
         font-weight: 700;
 
         &:hover,
         &:focus {
             color: $BrightLightBlue;
             text-decoration: none;
+        }
+
+        @media (min-width: 480px) {
+            font-size: 0.875rem;
         }
     }
 }
