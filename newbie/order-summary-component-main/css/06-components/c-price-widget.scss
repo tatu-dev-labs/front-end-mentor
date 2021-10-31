@@ -5,7 +5,7 @@
     justify-content: space-between;
     background-color: $VeryDesaturatedBlue;
     border-radius: 0.625rem;
-    padding: 1.75rem 1.5625rem;
+    padding: 0.9375rem;
 
     & div {
         flex-grow: 1;
@@ -41,5 +41,9 @@
         @media (min-width: 480px) {
             font-size: 0.875rem;
         }
+    }
+
+    @media (min-width: 480px) {
+        padding: 1.75rem 1.5625rem;
     }
 }
