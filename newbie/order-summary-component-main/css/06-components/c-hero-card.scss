@@ -35,6 +35,11 @@
     & .c-price-widget {
         margin-top: 1.125rem;
         height: 2.8125rem;
+
+        & p,
+        & .o-title {
+            padding: 0;
+        }
     }
 
     & .o-title {
