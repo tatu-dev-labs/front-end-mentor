@@ -16,11 +16,16 @@
 
     & p,
     & .o-title  {
+        font-size: 0.875rem;
         margin: 0;
+        padding: 0;
+
+        @media (min-width: 480px) {
+            font-size: 1rem;
+        }
     }
 
     & .o-title {
-        font-size: 1rem;
         text-align: left;
     }
 
